@@ -13,7 +13,7 @@ button.addEventListener("click", () => {
 });
 
 async function getWeatherData() {
-    const apiKey = "a4084e9999dacf565a392d23262e32ad";
+    const apiKey = "";
     const urlApi = `http://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input.value)}&units=metric&appid=${apiKey}`;
     
     try {
